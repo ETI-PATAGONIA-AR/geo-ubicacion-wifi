@@ -2,7 +2,7 @@
   =====================================================================
   APP_WGL_Robot — Aplicación WiFi de GeoLocalización de Robot
   =====================================================================
-  Escuela: [Nombre de la escuela]
+  ETI Patagonia - prof.martintorres@educ.ar
   Proyecto: Control de robot móvil con localización indoor
 
   USO:
