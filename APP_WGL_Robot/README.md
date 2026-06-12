@@ -1,3 +1,6 @@
+
+
+
 # INSTRUCCIONES:
 
 1_ Cargás imagen del plano (dibujado a escala, ej: 10m = 1000px... si es de 1000x800 px, representaria 10x8 m )
