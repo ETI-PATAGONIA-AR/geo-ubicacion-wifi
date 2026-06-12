@@ -362,8 +362,8 @@ Podés **Pausar** (para), modificar waypoints, y darle **Iniciar** de nuevo.
 - [ ] Calibré N_FACTOR (medición a 4 metros)
 - [ ] Actualicé los valores calibrados en el código y subí de nuevo
 - [ ] Moví el robot y vi que la posición en la GUI lo sigue
-- [ ) Marqué waypoints y le mandé una ruta al robot
-- [ ) El robot siguió la ruta exitosamente
+- [ ] Marqué waypoints y le mandé una ruta al robot
+- [ ] El robot siguió la ruta exitosamente
 
 ---
 
