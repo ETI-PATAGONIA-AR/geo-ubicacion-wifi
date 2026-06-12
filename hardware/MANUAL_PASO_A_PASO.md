@@ -2,7 +2,7 @@
 
 ## Cómo armar todo desde cero, sin morir en el intento
 
-> Esto no es un instructivo técnico aburrido. Es la guía que te va a contar **exactamente qué hacer**, en qué orden, y por qué cada paso es importante. Si lo seguís al pie de la letra, el robot se va a ubicar solo.
+> Esto no es un instructivo técnico aburrido donde te voy a dar muchas vueltas. Esta es la guía que te va a contar **exactamente qué hacer**, en qué orden, y por qué cada paso es importante. Si lo seguís al pie de la letra, el robot se va a ubicar solo.
 
 ---
 
