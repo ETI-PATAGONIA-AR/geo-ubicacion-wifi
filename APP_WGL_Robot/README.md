@@ -1,19 +1,24 @@
+<img width="1365" height="717" alt="Plano_Ejemplo2" src="https://github.com/user-attachments/assets/0dac5386-c130-4558-b1f6-0a265bb96d7e" />
+
 # INSTRUCCIONES:
 
-1_ Cargás imagen del plano (dibujado a escala, ej: 10m = 1000px... si es de 1000x800 px, representaria 10x8 m )
+1. Cargás la imagen del plano (dibujado a escala, ej: 10m = 1000 px... si es de 1000×800 px representa 10×8 m aprox.)
 
-2_ Click en "Calibrar Escala":
-   - Marcás dos puntos en el mapa, ingresás la distancia real
-   - El sistema calcula metros_por_pixel usando los PÍXELES del canvas y la distancia real
-   - Después calcula MAPA_ANCHO = img_ancho_px × metros_por_pixel
+2. Click en **"Calibrar Escala"**:
+   - Elige Boton **"SI" para editar el Ancho (X)** → marcás 2 puntos en horizontal, ingresás la distancia real → se recalcula `mapa_ancho`
+   - Elige Boton **"NO" para editar el Alto (Y)** → marcás 2 puntos en vertical, ingresás la distancia real → se recalcula `mapa_alto`
+   - Cada eje se calibra **independientemente**: la distancia entre tus clicks en el canvas se convierte directamente en los metros que indicaste
 
-3_ El plano se muestra sin estirar, la grilla se ajusta a la escala del plano
+3. La imagen se estira para cubrir el área del mapa. La grilla (con escalas X e Y independientes) se dibuja encima. Pasá el mouse para verificar las coordenadas en metros.
 
-4_ Botón "Editar Nodos": Arrastrar los nodos con el mouse sobre el plano para ubicarlos en sus posiciones reales.
+4. **"Colocar Nodo"**: click en el mapa crea un nodo; click sobre un nodo existente lo arrastra.
 
-5_ Guardar/Cargar Config en un JSON: ruta de la imagen, dimensiones del mapa, posición de los 4 nodos, y waypoints. Todo se recupera al cargar.
+5. **"Trazar Recorrido"**: click marca waypoints, click derecho borra, arrastrar reordena. Después **"Enviar Ruta"** al robot.
 
-6_ Botón "Enviar Config al Robot": Manda las posiciones de los nodos y dimensiones del mapa al ESP32 vía el nuevo endpoint POST /config, así no tenés que recompilar el código cada vez que cambiás algo.
+6. **Guardar/Cargar Config** en JSON: guarda ruta de la imagen, dimensiones del mapa, nodos y waypoints.
 
-<img width="1365" height="719" alt="GUI_1" src="https://github.com/user-attachments/assets/0499e7e2-f701-41b7-9cd3-ad89067fefec" />
+7. **"Enviar Config al Robot"**: manda posiciones de nodos y dimensiones del mapa al ESP32 vía `POST /config`, sin recompilar.
+
+8. mira el siguiente video: https://youtu.be/HpLXK-t0rBY 
+
 
